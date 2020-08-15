@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     commonjs: true,
     es6: true,
+    jest: true,
   },
   extends: [
     'airbnb-base',
@@ -25,4 +26,4 @@ module.exports = {
       'never',
     ],
   },
-};
+}
